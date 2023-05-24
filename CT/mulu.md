@@ -3,5 +3,4 @@
 ***
 
 * [主页](/README.md)  
-* [PC](/JC/PC.md)  
-* [Android](/JC/Androd.md)
+* [注册](/CT/zc.md)  

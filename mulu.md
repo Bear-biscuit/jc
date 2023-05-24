@@ -3,4 +3,5 @@
 ***
 
 * [主页](/README.md)  
-* [教程](/JC/PC.md)  
+* [出国教程](/JC/PC.md)  
+* [ChatGPT](/CT/zc.md)
