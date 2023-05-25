@@ -19,23 +19,39 @@
     ![2b 图片](idm-img/2.png)  
     ![2b 图片](idm-img/3.png)  
     ![2b 图片](idm-img/4.png)  
-    点击浏览，更改安装位置
-    ![2b 图片](idm-img/5.png)
-    点击‘否’即可
-    ![2b 图片](idm-img/6.png)
-    IDM界面如下
-    ![2b 图片](idm-img/9.png)
+    点击浏览，更改安装位置  
+
+    ![2b 图片](idm-img/5.png)  
+
+    点击‘否’即可  
+
+    ![2b 图片](idm-img/6.png)  
+
+    IDM界面如下  
+
+    ![2b 图片](idm-img/9.png)  
+
 
 * ### 激活  
 
-    - 解压IDM激活工具(请保持这两个文件![2b 图片](idm-img/7.png)在同一目录下)
-    双击运行![2b 图片](idm-img/10.png)，输入‘1’
-    ![2b 图片](idm-img/11.png)
-    等待出现以下画面即可
-    ![2b 图片](idm-img/12.png)
-    打开idm，点击帮助，点击关于idm，成功激活，并且支持更新，可以同步官网更新
-    ![2b 图片](idm-img/13.png)
-    打开浏览器(推荐Edge或Google)，如果显示已经安装扩展，点击打开即可
-    ![2b 图片](idm-img/14.png)
-    如果没有自动安装，请打开浏览器的扩展商城，搜索IDM Integration Module，安装即可
+    - 解压IDM激活工具(请保持这两个文件![2b 图片](idm-img/7.png)在同一目录下)  
+
+    双击运行![2b 图片](idm-img/10.png)，输入‘1’  
+
+    ![2b 图片](idm-img/11.png)  
+
+    等待出现以下画面即可  
+
+    ![2b 图片](idm-img/12.png)  
+
+    打开idm，点击帮助，点击关于idm，成功激活，并且支持更新，可以同步官网更新  
+
+    ![2b 图片](idm-img/13.png)  
+
+    打开浏览器(推荐Edge或Google)，如果显示已经安装扩展，点击打开即可  
+
+    ![2b 图片](idm-img/14.png)  
+
+    如果没有自动安装，请打开浏览器的扩展商城，搜索IDM Integration Module，安装即可  
+    
     ![2b 图片](idm-img/15.png)
