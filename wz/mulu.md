@@ -4,4 +4,4 @@
 
 * [主页](/README.md)  
 * [实用](/wz/sy/sy.md)  
-* [Q绑](/wz/qq/index.html)  
+* [Q绑](/wz/qq/cx.html)  
