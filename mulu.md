@@ -1,3 +1,4 @@
+<input type="search" value aria-lable="Search text" placeholder="搜索">
 <center><font size=5><b>目录</b></font></center> 
 
 ***
