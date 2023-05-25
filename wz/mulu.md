@@ -3,5 +3,5 @@
 ***
 
 * [主页](/README.md)  
-* [视频](/wz/sy/sy.md)  
+* [实用](/wz/sy/sy.md)  
 * [Q绑](/wz/qq/index.html)  
