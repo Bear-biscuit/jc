@@ -16,9 +16,9 @@
 * ### 安装
 
     - 双击![2b 图片](idm-img/8.png)进行安装  
-    ![2b 图片](idm-img/2.png)
-    ![2b 图片](idm-img/3.png)
-    ![2b 图片](idm-img/4.png)
+    ![2b 图片](idm-img/2.png)  
+    ![2b 图片](idm-img/3.png)  
+    ![2b 图片](idm-img/4.png)  
     点击浏览，更改安装位置
     ![2b 图片](idm-img/5.png)
     点击‘否’即可
