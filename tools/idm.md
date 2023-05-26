@@ -54,4 +54,14 @@
 
     如果没有自动安装，请打开浏览器的扩展商城，搜索IDM Integration Module，安装即可  
     
-    ![2b 图片](idm-img/15.png)
+    ![2b 图片](idm-img/15.png)  
+
+* #### 使用  
+    - 保存网页视频（以抖音为例）  
+    ![2b 图片](idm-img/16.png)  
+    ![2b 图片](idm-img/17.png)
+    ![2b 图片](idm-img/18.png)  
+    - 保存网页音频（以QQ音乐为例）  
+    ![2b 图片](idm-img/19.png)  
+    ![2b 图片](idm-img/20.png)  
+    ![2b 图片](idm-img/21.png)
