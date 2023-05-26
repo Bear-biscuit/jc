@@ -1,5 +1,5 @@
 <div align=center  >
-<img decoding="async" src="img/bocchi.png" width="40%" >   
+<img decoding="async" src="img/bocchi.png" width="25%" >   
 
 # 波奇酱  
 波奇酱想要克服自己的社恐  
