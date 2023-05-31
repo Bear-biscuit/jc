@@ -6,4 +6,4 @@
 * [ChatGPT](/CT/zy.md)  
 * [实用网址](/wz/sy/sy.md)  
 * [工具](/tools/idm.md)  
-* [转圈圈](/wz/ht/index.html)
+* [转圈圈](/hk/index.html)
