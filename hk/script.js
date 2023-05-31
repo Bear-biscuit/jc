@@ -28,13 +28,13 @@ const LANGUAGES = {
             "access-via-mirror": "Congratulations! You are using a mirror site, which should speed up access within China (Mainland) and some regions. Click here to <a href='https://duiqt.github.io/herta_kuru/'>visit the source site on GitHub Pages</a>.",
             "footer-show-credits-text": "Show Credits"
         },
-        cardImage: "img/card_en.jpg"
+        cardImage: "./img/card_en.jpg"
     }, "cn": {
         audioList: [
-            "audio/cn/gululu.mp3",
-            "audio/cn/gururu.mp3",
-            "audio/cn/转圈圈.mp3",
-            "audio/cn/转圈圈咯.mp3",
+            "./audio/cn/gululu.mp3",
+            "./audio/cn/gururu.mp3",
+            "./audio/cn/转圈圈.mp3",
+            "./audio/cn/转圈圈咯.mp3",
         ],
         texts: {
             "page-title": "黑塔转圈圈",
@@ -50,13 +50,13 @@ const LANGUAGES = {
             "access-via-mirror": "恭喜！你正在使用镜像站，这应当会加速在中国大陆及部分地区境内的访问。点此<a href='https://duiqt.github.io/herta_kuru/'>访问 GitHub Pages 上的源站</a>。",
             "footer-show-credits-text": "查看感谢页"
         },
-        cardImage: "img/card_cn.jpg"
+        cardImage: "./img/card_cn.jpg"
     },
     "ja": {
         audioList: [
-            "audio/ja/kuruto.mp3",
-            "audio/ja/kuru1.mp3",
-            "audio/ja/kuru2.mp3",
+            "./audio/ja/kuruto.mp3",
+            "./audio/ja/kuru1.mp3",
+            "./audio/ja/kuru2.mp3",
         ],
         texts: {
             "page-title": "ヘルタクルへようこそ~",
@@ -77,9 +77,9 @@ const LANGUAGES = {
     },
     "kr": {
         audioList: [
-            "audio/ja/kuruto.mp3",
-            "audio/ja/kuru1.mp3",
-            "audio/ja/kuru2.mp3",
+            "./audio/ja/kuruto.mp3",
+            "./audio/ja/kuru1.mp3",
+            "./audio/ja/kuru2.mp3",
         ],
         texts: {
             "page-title": "헤르타빙글 환영합니다~",
@@ -96,7 +96,7 @@ const LANGUAGES = {
             "access-via-mirror": "축하합니다. 당신은 미러 웹 사이트를 통해 액세스하고 있습니다, 이렇게 하면 중국 및 일부 다른 지역에서의 액세스 속도가 빨라집니다. 여기를 <a href='https://duiqt.github.io/herta_kuru/'> 클릭하여 GitHub의 소스 페이지에 액세스하십시오</a>. ",
             "footer-show-credits-text": "Show Credits"
         },
-        cardImage: "img/card_kr.jpg"
+        cardImage: "./img/card_kr.jpg"
     }
 };
 
@@ -300,8 +300,8 @@ function animateHerta() {
     let id = null;
 
     const random = Math.floor(Math.random() * 2) + 1;
-    const elem = document.createElement("img");
-    elem.src = tryCachedObject(`img/hertaa${random}.gif`);
+    const elem = document.createElement("./img");
+    elem.src = tryCachedObject(`./img/hertaa${random}.gif`);
     elem.style.position = "absolute";
     elem.style.right = "-500px";
     elem.style.top = counterButton.getClientRects()[0].bottom + scrollY - 430 + "px"
