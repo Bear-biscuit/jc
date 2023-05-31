@@ -9,9 +9,9 @@ const LANGUAGES = {
     "_": { fallbackLanguage: "en" },
     "en": {
         audioList: [
-            "audio/ja/kuruto.mp3",
-            "audio/ja/kuru1.mp3",
-            "audio/ja/kuru2.mp3",
+            "/wz/ht/audio/ja/kuruto.mp3",
+            "/wz/ht/audio/ja/kuru1.mp3",
+            "/wz/ht/audio/ja/kuru2.mp3",
         ],
         texts: {
             "page-title": "Welcome to herta kuru~",
@@ -30,10 +30,10 @@ const LANGUAGES = {
         cardImage: "img/card_en.jpg"
     }, "cn": {
         audioList: [
-            "audio/cn/gululu.mp3",
-            "audio/cn/gururu.mp3",
-            "audio/cn/转圈圈.mp3",
-            "audio/cn/转圈圈咯.mp3",
+            "/wz/ht/audio/cn/gululu.mp3",
+            "/wz/ht/audio/cn/gururu.mp3",
+            "/wz/ht/audio/cn/转圈圈.mp3",
+            "/wz/ht/audio/cn/转圈圈咯.mp3",
         ],
         texts: {
             "page-title": "黑塔转圈圈",
@@ -52,9 +52,9 @@ const LANGUAGES = {
     },
     "ja": {
         audioList: [
-            "audio/ja/kuruto.mp3",
-            "audio/ja/kuru1.mp3",
-            "audio/ja/kuru2.mp3",
+            "/wz/ht/audio/ja/kuruto.mp3",
+            "/wz/ht/audio/ja/kuru1.mp3",
+            "/wz/ht/audio/ja/kuru2.mp3",
         ],
         texts: {
             "page-title": "ヘルタクルへようこそ~",
@@ -70,13 +70,13 @@ const LANGUAGES = {
             "access-via-pages": "You're currently accessing via GitHub Pages. For users in China (Mainland) or some other regions, click <a href='https://herta.ft2.ltd/'>here to access the mirror on Netlify</a>. ",
             "access-via-mirror": "Congratulations! You are using a mirror site, which should speed up access within China (Mainland) and some regions. Click here to <a href='https://duiqt.github.io/herta_kuru/'>visit the source site on GitHub Pages</a>."
         },
-        cardImage: "img/card_ja.jpg"
+        cardImage: "/wz/ht/img/card_ja.jpg"
     },
     "kr": {
         audioList: [
-            "audio/ja/kuruto.mp3",
-            "audio/ja/kuru1.mp3",
-            "audio/ja/kuru2.mp3",
+            "/wz/ht/audio/ja/kuruto.mp3",
+            "/wz/ht/audio/ja/kuru1.mp3",
+            "/wz/ht/audio/ja/kuru2.mp3",
         ],
         texts: {
             "page-title": "헤르타빙글 환영합니다~",
@@ -92,7 +92,7 @@ const LANGUAGES = {
             "access-via-pages": "You're currently accessing via GitHub Pages. For users in China (Mainland) or some other regions, click <a href='https://herta.ft2.ltd/'>here to access the mirror on Netlify</a>. ",
             "access-via-mirror": "Congratulations! You are using a mirror site, which should speed up access within China (Mainland) and some regions. Click here to <a href='https://duiqt.github.io/herta_kuru/'>visit the source site on GitHub Pages</a>."
         },
-        cardImage: "img/card_kr.jpg"
+        cardImage: "/wz/ht/img/card_kr.jpg"
     }
 };
 
@@ -296,8 +296,8 @@ function animateHerta() {
     let id = null;
 
     const random = Math.floor(Math.random() * 2) + 1;
-    const elem = document.createElement("img");
-    elem.src = tryCachedObject(`img/hertaa${random}.gif`);
+    const elem = document.createElement("/wz/ht/img");
+    elem.src = tryCachedObject(`/wz/ht/img/hertaa${random}.gif`);
     elem.style.position = "absolute";
     elem.style.right = "-500px";
     elem.style.top = counterButton.getClientRects()[0].bottom + scrollY - 430 + "px"
