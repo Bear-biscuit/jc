@@ -6,12 +6,12 @@ let firstSquish = true;
 
 //language support
 const LANGUAGES = {
-    "_": { fallbackLanguage: "cn" },
+    "_": { fallbackLanguage: "en" },
     "en": {
         audioList: [
-            "/hk/img/audio/ja/kuruto.mp3",
-            "/hk/img/audio/ja/kuru1.mp3",
-            "/hk/img/audio/ja/kuru2.mp3",
+            "audio/ja/kuruto.mp3",
+            "audio/ja/kuru1.mp3",
+            "audio/ja/kuru2.mp3",
         ],
         texts: {
             "page-title": "Welcome to herta kuru~",
@@ -28,13 +28,13 @@ const LANGUAGES = {
             "access-via-mirror": "Congratulations! You are using a mirror site, which should speed up access within China (Mainland) and some regions. Click here to <a href='https://duiqt.github.io/herta_kuru/'>visit the source site on GitHub Pages</a>.",
             "footer-show-credits-text": "Show Credits"
         },
-        cardImage: "/hk/img/card_en.jpg"
+        cardImage: "img/card_en.jpg"
     }, "cn": {
         audioList: [
-            "/hk/audio/cn/gululu.mp3",
-            "/hk/audio/cn/gururu.mp3",
-            "/hk/audio/cn/转圈圈.mp3",
-            "/hk/audio/cn/转圈圈咯.mp3",
+            "audio/cn/gululu.mp3",
+            "audio/cn/gururu.mp3",
+            "audio/cn/转圈圈.mp3",
+            "audio/cn/转圈圈咯.mp3",
         ],
         texts: {
             "page-title": "黑塔转圈圈",
@@ -50,13 +50,13 @@ const LANGUAGES = {
             "access-via-mirror": "恭喜！你正在使用镜像站，这应当会加速在中国大陆及部分地区境内的访问。点此<a href='https://duiqt.github.io/herta_kuru/'>访问 GitHub Pages 上的源站</a>。",
             "footer-show-credits-text": "查看感谢页"
         },
-        cardImage: "/hk/img/card_cn.jpg"
+        cardImage: "img/card_cn.jpg"
     },
     "ja": {
         audioList: [
-            "/hk/audio/ja/kuruto.mp3",
-            "/hk/audio/ja/kuru1.mp3",
-            "/hk/audio/ja/kuru2.mp3",
+            "audio/ja/kuruto.mp3",
+            "audio/ja/kuru1.mp3",
+            "audio/ja/kuru2.mp3",
         ],
         texts: {
             "page-title": "ヘルタクルへようこそ~",
@@ -73,13 +73,13 @@ const LANGUAGES = {
             "access-via-mirror": "おめでとうございます！今はもうミラーサイトを使っています、中国大陸まだは他の地域のアクセス速度が速くなります。サイトのソースを見たいなら、<a href='https://duiqt.github.io/herta_kuru/'>ここにクリックして</a>、GitHubページで見てください。",
             "footer-show-credits-text": "Show Credits"
         },
-        cardImage: "/hk/img/card_ja.jpg"
+        cardImage: "img/card_ja.jpg"
     },
     "kr": {
         audioList: [
-            "/hk/audio/ja/kuruto.mp3",
-            "/hk/audio/ja/kuru1.mp3",
-            "/hk/audio/ja/kuru2.mp3",
+            "audio/ja/kuruto.mp3",
+            "audio/ja/kuru1.mp3",
+            "audio/ja/kuru2.mp3",
         ],
         texts: {
             "page-title": "헤르타빙글 환영합니다~",
@@ -96,12 +96,12 @@ const LANGUAGES = {
             "access-via-mirror": "축하합니다. 당신은 미러 웹 사이트를 통해 액세스하고 있습니다, 이렇게 하면 중국 및 일부 다른 지역에서의 액세스 속도가 빨라집니다. 여기를 <a href='https://duiqt.github.io/herta_kuru/'> 클릭하여 GitHub의 소스 페이지에 액세스하십시오</a>. ",
             "footer-show-credits-text": "Show Credits"
         },
-        cardImage: "/hk/img/card_kr.jpg"
+        cardImage: "img/card_kr.jpg"
     }
 };
 
-var current_language = localStorage.getItem("lang") || "cn";
-if (current_language != "cn") {
+var current_language = localStorage.getItem("lang") || "en";
+if (current_language != "en") {
     document.getElementById("language-selector").value = current_language;
 };
 
@@ -166,7 +166,7 @@ function getGlobalCount(duration = null, callback = null) {
         .catch((err) => console.error(err));
 };
 // initialize counters
-localCounter.textContent = localCount.toLocaleString('cn-US');
+localCounter.textContent = localCount.toLocaleString('en-US');
 
 let prevTime = 0;
 // update global count every 10 seconds when tab is visible
