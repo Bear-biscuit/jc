@@ -10,8 +10,9 @@
 
 * #### 下载
 
-    - 蓝奏云： <https://wwrk.lanzouf.com/ir46k0x8cvxi>
-    密码&nbsp;&nbsp;&nbsp;&nbsp;：h1vo
+    - 蓝奏云： <https://wwrk.lanzouf.com/ir46k0x8cvxi>  
+    密码&nbsp;&nbsp;&nbsp;&nbsp;：h1vo  
+    激活工具：<https://wwrk.lanzouj.com/ig3h00x8d4dc>
 
 * #### 安装
 
