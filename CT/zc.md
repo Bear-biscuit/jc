@@ -1,3 +1,4 @@
+### 请先在目录中查看注意事项
 
 * #### 访问GPT 
     - 网址：<https://chat.openai.com/>  
