@@ -4,4 +4,5 @@
 * [主页](/)  
 * [实用](/wz/sy/sy.md)  
 * [Q绑](http://qb.shegongk.com/)  
-* [轻小说](https://www.wenku8.net/index.php)
+* [轻小说](https://www.wenku8.net/index.php)  
+* [维卡](https://www.vikacg.com)  
